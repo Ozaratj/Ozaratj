@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="Озара — современное прочтение таджикской вышивки ручной работы. Сузане, текстиль и аксессуары из натуральных тканей, созданные мастерицами Худжанда.">
+  <title>Озара — искусство таджикской вышивки</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="ozara.css">
+  <style>
+    .product-open { display: none; }
+    @media (max-width: 760px) {
+      .header-inner { flex-wrap: wrap; justify-content: center; padding: 8px 0; }
+      .nav { position: static; display: flex; flex-wrap: wrap; justify-content: center; gap: 8px 16px; padding: 8px 0; border: 0; background: transparent; }
+      .nav a { padding: 4px 0; border: 0; }
+      .header-actions { display: none; }
+    }
+  </style>
+  </head>
+<body>
+  <header class="header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Озара — на главную">
+        <img class="brand-logo" src="file:///C:/Users/User/AppData/Roaming/Code/agentSessionData/80e97514-b117-4c95-a31f-846310527b14/attachments/bdfec737-0887-4cc1-9a40-b3d460a65b97/Image%20from%20URL.png" alt="Логотип Озара">
+      </a>
+      <nav class="nav" id="main-nav" aria-label="Основная навигация">
+        <a href="#about">О нас</a>
+        <a href="./ozara.html?view=collections#collections" target="_blank" rel="noopener">Коллекции</a>
+        <a href="#impact">Наша миссия</a>
+        <a href="#partners">Партнерам</a>
+        <a href="#contacts">Контакты</a>
+        <a href="https://www.instagram.com/ozara_company/" target="_blank" rel="noopener noreferrer">instagram</a>
+        <a href="https://www.facebook.com/savingourheritagesavingourselves/" target="_blank" rel="noopener noreferrer">facebook</a>
+      </nav>
+      <div class="header-actions">
+        <span class="languages" aria-label="Язык страницы">RU</span>
+        <a class="button header-contact" href="#contacts">Связаться <span aria-hidden="true">↗</span></a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="top">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow">Ремесло с душой · Худжанд</span>
+          <h1>Искусство таджикской вышивки <em>в новом прочтении</em></h1>
+          <p>Традиционные орнаменты, созданные руками мастериц Худжанда на натуральном хлопке и шелке. Каждая вещь — история, которую хочется хранить.</p>
+          <div class="hero-cta">
+            <a class="button" href="./ozara.html?view=collections#collections" target="_blank" rel="noopener">Смотреть коллекцию <span aria-hidden="true">↗</span></a>
+            <span class="hero-note">
+              <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 2.5 12 7l4.8 2-4.8 2-2 4.8L8 11l-4.8-2L8 7l2-4.5Z" stroke="currentColor" stroke-width="1.2"/><path d="m15.7 13.6.9 1.8 1.9.9-1.9.8-.9 1.9-.8-1.9-1.9-.8 1.9-.9.8-1.8Z" fill="currentColor"/></svg>
+              Ручная работа, созданная с заботой
+            </span>
+          </div>
+        </div>
+        <div class="hero-art">
+          <img class="hero-photo" src="./images.jpg" alt="Фактура ткани и ручная вышивка в теплых природных оттенках">
+          <div class="hero-stamp"><strong>100%</strong><span>натуральные материалы</span></div>
+        </div>
+      </div>
+      <a class="hero-scroll" href="#about">Листайте ниже</a>
+    </section>
+
+    <section class="story" id="about">
+      <div class="container story-layout">
+        <div class="story-copy">
+          <span class="eyebrow">Наследие, которое живет</span>
+          <h2>Красота традиции — в руках мастериц</h2>
+          <p>«Озара» родилась в 2011 году в Худжанде как социальное предприятие при поддержке Национальной Ассоциации Деловых Женщин Таджикистана (НАДЖТ). Мы объединяем мастериц, чтобы традиционное ремесло становилось делом будущего.</p>
+          <p>Сузане — это не просто узор. Это язык символов, семейная память и мастерство, которое передается от поколения к поколению. Мы бережно вплетаем его в вещи для современной жизни.</p>
+          <a class="button button--outline" href="#craft">Узнать о процессе <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="impact-grid" id="impact">
+          <article class="impact-card"><strong>100+</strong><h3>Мастериц</h3><p>Обучили ремеслу и поддержали в развитии собственного дела.</p></article>
+          <article class="impact-card"><strong>100%</strong><h3>Натуральные ткани</h3><p>Хлопок и шелк — приятная основа для каждой вышитой истории.</p></article>
+          <article class="impact-card"><strong>2011</strong><h3>Живое наследие</h3><p>Сохраняем таджикские орнаменты и передаем традиции дальше.</p></article>
+          <article class="impact-card"><strong>∞</strong><h3>Новые горизонты</h3><p>Знакомим с ремеслом и изделиями Озары покупателей по всему миру.</p></article>
+        </div>
+      </div>
+      <div class="container story-divider"><div class="ornament" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M16 3c2 6 4.3 8.3 10 10-5.7 1.7-8 4-10 10-2-6-4.3-8.3-10-10 5.7-1.7 8-4 10-10Z" stroke="currentColor"/><circle cx="16" cy="13" r="2" fill="currentColor"/></svg></div></div>
+    </section>
+
+    <section class="collections" id="collections">
+      <div class="container">
+        <div class="section-heading">
+          <div><span class="eyebrow">Создано вручную</span><h2>Коллекции Озары</h2></div>
+          <p>Небольшие серии и уникальные изделия, в которых встречаются древний орнамент и современная форма.</p>
+        </div>
+        <div class="product-grid">
+          <article class="product-card" data-category="decor" data-name="Сузане «Цветочный сад»" data-material="Хлопок, цветная нить, традиционная ручная вышивка" data-price="Уточняйте стоимость">
+            <div class="product-image-wrap"><img class="product-image" src="file:///C:/Users/User/AppData/Roaming/Code/agentSessionData/80e97514-b117-4c95-a31f-846310527b14/attachments/a5434e09-8bdb-4205-a7fa-9512b98ae7c1/photo_1_2026-11-19_08-47-59.jpg" alt="Деталь яркой таджикской вышивки сузане" loading="lazy"><span class="product-tag">Сузане и панно</span></div>
+            <div class="product-info"><h3>Сузане «Цветочный сад»</h3><p>Хлопок, цветная нить · ручная вышивка</p><div class="product-bottom"><span class="product-price">Уточняйте стоимость</span><button class="text-link product-open" type="button">Подробнее ↗</button></div></div>
+          </article>
+          <article class="product-card" data-category="process" data-name="Цветовая палитра нитей" data-material="Нити для ручной вышивки по натуральному хлопку" data-price="Часть процесса создания">
+            <div class="product-image-wrap"><img class="product-image" src="file:///C:/Users/User/AppData/Roaming/Code/agentSessionData/80e97514-b117-4c95-a31f-846310527b14/attachments/ec628f02-c9c6-4e22-a264-705bcdb2074f/photo_4_2026-11-19_08-47-59.jpg" alt="Цветные нити для ручной вышивки на ткани" loading="lazy"><span class="product-tag">Мастерская</span></div>
+            <div class="product-info"><h3>Цветовая палитра нитей</h3><p>Подбор оттенков для будущего орнамента</p><div class="product-bottom"><span class="product-price">Мастерская Озары</span><button class="text-link product-open" type="button">Подробнее ↗</button></div></div>
+          </article>
+          <article class="product-card" data-category="decor" data-name="Панно «Гранатовый сад»" data-material="Натуральная ткань, шелковая нить, ручная вышивка" data-price="Уточняйте стоимость">
+            <div class="product-image-wrap"><img class="product-image" src="file:///C:/Users/User/AppData/Roaming/Code/agentSessionData/80e97514-b117-4c95-a31f-846310527b14/attachments/4d92710e-88cf-4eb5-a44c-13581e485384/photo_2_2026-11-19_08-47-59.jpg" alt="Панно сузане с симметричным цветочным орнаментом" loading="lazy"><span class="product-tag">Сузане и панно</span></div>
+            <div class="product-info"><h3>Панно «Гранатовый сад»</h3><p>Натуральная ткань, шелковая нить</p><div class="product-bottom"><span class="product-price">Уточняйте стоимость</span><button class="text-link product-open" type="button">Подробнее ↗</button></div></div>
+          </article>
+          <article class="product-card" data-category="decor" data-name="Сузане «Синяя мозаика»" data-material="Хлопок, шелк, традиционная ручная вышивка" data-price="Уточняйте стоимость">
+            <div class="product-image-wrap"><img class="product-image" src="file:///C:/Users/User/AppData/Roaming/Code/agentSessionData/80e97514-b117-4c95-a31f-846310527b14/attachments/7d978d10-d0ed-47d5-84f0-b87da8e034cb/photo_3_2026-11-19_08-47-59.jpg" alt="Сузане с синим геометрическим и цветочным орнаментом" loading="lazy"><span class="product-tag">Сузане и панно</span></div>
+            <div class="product-info"><h3>Сузане «Синяя мозаика»</h3><p>Хлопок и шелк · ручная вышивка</p><div class="product-bottom"><span class="product-price">Уточняйте стоимость</span><button class="text-link product-open" type="button">Подробнее ↗</button></div></div>
+          </article>
+          <article class="product-card" data-category="decor" data-name="Панно «Цветочная звезда»" data-material="Ткань, цветная нить, традиционная вышивка" data-price="Уточняйте стоимость">
+            <div class="product-image-wrap"><img class="product-image" src="file:///C:/Users/User/AppData/Roaming/Code/agentSessionData/80e97514-b117-4c95-a31f-846310527b14/attachments/4a6e87f0-214d-49a7-810c-1f1179fc75db/photo_6_2026-11-19_08-48-00.jpg" alt="Оформленное в рамку сузане с цветочной звездой" loading="lazy"><span class="product-tag">Сузане и панно</span></div>
+            <div class="product-info"><h3>Панно «Цветочная звезда»</h3><p>Традиционная ручная вышивка</p><div class="product-bottom"><span class="product-price">Уточняйте стоимость</span><button class="text-link product-open" type="button">Подробнее ↗</button></div></div>
+          </article>
+          <article class="product-card" data-category="pillows" data-name="Подушка «Шамси»" data-material="Натуральная ткань, ручная вышивка в темной гамме" data-price="Уточняйте стоимость">
+            <div class="product-image-wrap"><img class="product-image" src="file:///C:/Users/User/AppData/Roaming/Code/agentSessionData/80e97514-b117-4c95-a31f-846310527b14/attachments/b58fc2bc-5fe7-425c-81c3-e64e229c9b67/photo_8_2026-11-19_08-48-00.jpg" alt="Подушка с центральным геометрическим орнаментом" loading="lazy"><span class="product-tag">Подушки</span></div>
+            <div class="product-info"><h3>Подушка «Шамси»</h3><p>Натуральная ткань · ручная вышивка</p><div class="product-bottom"><span class="product-price">Уточняйте стоимость</span><button class="text-link product-open" type="button">Подробнее ↗</button></div></div>
+          </article>
+          <article class="product-card" data-category="pillows" data-name="Подушка «Навруз»" data-material="Хлопок, цветная нить, цветочная вышивка" data-price="Уточняйте стоимость">
+            <div class="product-image-wrap"><img class="product-image" src="file:///C:/Users/User/AppData/Roaming/Code/agentSessionData/80e97514-b117-4c95-a31f-846310527b14/attachments/d7e22818-9757-4e5d-a00b-9df424d7c5ac/photo_9_2026-11-19_08-48-00.jpg" alt="Подушка Навруз с цветочной вышивкой" loading="lazy"><span class="product-tag">Подушки</span></div>
+            <div class="product-info"><h3>Подушка «Навруз»</h3><p>Хлопок, цветная нить · ручная вышивка</p><div class="product-bottom"><span class="product-price">Уточняйте стоимость</span><button class="text-link product-open" type="button">Подробнее ↗</button></div></div>
+          </article>
+          <article class="product-card" data-category="pillows" data-name="Подушка «Зард»" data-material="Хлопок, вышивка в натуральной цветовой палитре" data-price="Уточняйте стоимость">
+            <div class="product-image-wrap"><img class="product-image" src="file:///C:/Users/User/AppData/Roaming/Code/agentSessionData/80e97514-b117-4c95-a31f-846310527b14/attachments/342ebb17-c7dc-4cfd-a036-287eef2dc935/photo_10_2026-11-19_08-48-00.jpg" alt="Подушка Зард с вышитыми растительными мотивами" loading="lazy"><span class="product-tag">Подушки</span></div>
+            <div class="product-info"><h3>Подушка «Зард»</h3><p>Хлопок · вышивка в теплой палитре</p><div class="product-bottom"><span class="product-price">Уточняйте стоимость</span><button class="text-link product-open" type="button">Подробнее ↗</button></div></div>
+          </article>
+          <article class="product-card" data-category="pillows" data-name="Подушка «Рух»" data-material="Натуральная ткань, декоративная ручная вышивка" data-price="Уточняйте стоимость">
+            <div class="product-image-wrap"><img class="product-image" src="file:///C:/Users/User/AppData/Roaming/Code/agentSessionData/80e97514-b117-4c95-a31f-846310527b14/attachments/d9d85ddd-f6f1-4f13-b02a-c6497569b0c1/photo_7_2026-11-19_08-48-00.jpg" alt="Подушка Рух с крупным центральным орнаментом" loading="lazy"><span class="product-tag">Подушки</span></div>
+            <div class="product-info"><h3>Подушка «Рух»</h3><p>Натуральная ткань · ручная вышивка</p><div class="product-bottom"><span class="product-price">Уточняйте стоимость</span><button class="text-link product-open" type="button">Подробнее ↗</button></div></div>
+          </article>
+          <article class="product-card" data-category="process" data-name="Орнамент в работе" data-material="Традиционный узор, подготовленный мастерицей к ручной вышивке" data-price="Часть процесса создания">
+            <div class="product-image-wrap"><img class="product-image" src="file:///C:/Users/User/AppData/Roaming/Code/agentSessionData/80e97514-b117-4c95-a31f-846310527b14/attachments/7c04d0cb-7f1c-4c05-aaa9-dcd665f09ff8/photo_5_2026-11-19_08-48-00.jpg" alt="Мастерица размечает традиционный орнамент на ткани" loading="lazy"><span class="product-tag">Мастерская</span></div>
+            <div class="product-info"><h3>Орнамент в работе</h3><p>Эскиз и подготовка ткани к вышивке</p><div class="product-bottom"><span class="product-price">Мастерская Озары</span><button class="text-link product-open" type="button">Подробнее ↗</button></div></div>
+          </article>
+          <article class="product-card" data-category="pillows" data-name="Подушка «Мавҷи сабз»" data-material="Натуральная ткань, хлопковые нити, ручная вышивка" data-price="Уточняйте стоимость">
+            <div class="product-image-wrap"><img class="product-image" src="file:///C:/Users/User/AppData/Roaming/Code/agentSessionData/80e97514-b117-4c95-a31f-846310527b14/attachments/bcae9d20-10b4-4127-8b75-d91fd4be2f7b/photo_1_2026-11-19_08-54-10.jpg" alt="Подушка с бирюзовым растительным орнаментом" loading="lazy"><span class="product-tag">Подушки</span></div>
+            <div class="product-info"><h3>Подушка «Мавҷи сабз»</h3><p>Натуральная ткань · вышивка вручную</p><div class="product-bottom"><span class="product-price">Уточняйте стоимость</span><button class="text-link product-open" type="button">Подробнее ↗</button></div></div>
+          </article>
+          <article class="product-card" data-category="textile" data-name="Текстиль «Сурх»" data-material="Ткань и хлопковая нить, традиционный ручной орнамент" data-price="Уточняйте стоимость">
+            <div class="product-image-wrap"><img class="product-image" src="file:///C:/Users/User/AppData/Roaming/Code/agentSessionData/80e97514-b117-4c95-a31f-846310527b14/attachments/21234bc3-07d3-47a1-abc1-06bb621260c2/photo_13_2026-11-19_08-54-10.jpg" alt="Крупный план красной ткани с белой традиционной вышивкой" loading="lazy"><span class="product-tag">Текстиль</span></div>
+            <div class="product-info"><h3>Текстиль «Сурх»</h3><p>Красная ткань, выразительная ручная вышивка</p><div class="product-bottom"><span class="product-price">Уточняйте стоимость</span><button class="text-link product-open" type="button">Подробнее ↗</button></div></div>
+          </article>
+          <article class="product-card" data-category="textile" data-name="Орнамент «Гулдӯзӣ»" data-material="Ткань с традиционной вышивкой белыми и красными нитями" data-price="Уточняйте стоимость">
+            <div class="product-image-wrap"><img class="product-image" src="file:///C:/Users/User/AppData/Roaming/Code/agentSessionData/80e97514-b117-4c95-a31f-846310527b14/attachments/dba8c1c2-9691-4e14-8bc6-127c88e16c2e/photo_12_2026-11-19_08-54-10.jpg" alt="Красный вышитый текстиль с традиционными белыми узорами" loading="lazy"><span class="product-tag">Текстиль</span></div>
+            <div class="product-info"><h3>Орнамент «Гулдӯзӣ»</h3><p>Традиционная вышивка на красной ткани</p><div class="product-bottom"><span class="product-price">Уточняйте стоимость</span><button class="text-link product-open" type="button">Подробнее ↗</button></div></div>
+          </article>
+          <article class="product-card" data-category="clothing" data-name="Платье «Сурх»" data-material="Традиционный крой, орнаментальная вышивка и принт" data-price="Индивидуальный пошив">
+            <div class="product-image-wrap"><img class="product-image" src="file:///C:/Users/User/AppData/Roaming/Code/agentSessionData/80e97514-b117-4c95-a31f-846310527b14/attachments/f4213369-7b06-412e-8c83-ac249dda06bf/photo_11_2026-11-19_08-54-10.jpg" alt="Красное таджикское платье с белой вышивкой" loading="lazy"><span class="product-tag">Одежда</span></div>
+            <div class="product-info"><h3>Платье «Сурх»</h3><p>Традиционные мотивы в современном образе</p><div class="product-bottom"><span class="product-price">Индивидуальный пошив</span><button class="text-link product-open" type="button">Подробнее ↗</button></div></div>
+          </article>
+          <article class="product-card" data-category="clothing" data-name="Платье «Нақш»" data-material="Ткань с традиционным орнаментом и вышитым лифом" data-price="Индивидуальный пошив">
+            <div class="product-image-wrap"><img class="product-image" src="file:///C:/Users/User/AppData/Roaming/Code/agentSessionData/80e97514-b117-4c95-a31f-846310527b14/attachments/7231b371-b721-4ecb-ba08-6170dcd436f9/photo_10_2026-11-19_08-54-10.jpg" alt="Традиционное красно-белое платье в полный рост" loading="lazy"><span class="product-tag">Одежда</span></div>
+            <div class="product-info"><h3>Платье «Нақш»</h3><p>Орнаментальная ткань и ручные детали</p><div class="product-bottom"><span class="product-price">Индивидуальный пошив</span><button class="text-link product-open" type="button">Подробнее ↗</button></div></div>
+          </article>
+          <article class="product-card" data-category="clothing" data-name="Жилет «Зару зев»" data-material="Бархатный жилет с яркой декоративной вышивкой" data-price="Уточняйте стоимость">
+            <div class="product-image-wrap"><img class="product-image" src="file:///C:/Users/User/AppData/Roaming/Code/agentSessionData/80e97514-b117-4c95-a31f-846310527b14/attachments/d93cfee2-8895-4e8b-8b4d-fe34170bb4da/photo_9_2026-11-19_08-54-10.jpg" alt="Традиционный расшитый жилет и головной убор" loading="lazy"><span class="product-tag">Одежда</span></div>
+            <div class="product-info"><h3>Жилет «Зару зев»</h3><p>Праздничный образ с яркой ручной вышивкой</p><div class="product-bottom"><span class="product-price">Уточняйте стоимость</span><button class="text-link product-open" type="button">Подробнее ↗</button></div></div>
+          </article>
+          <article class="product-card" data-category="clothing" data-name="Праздничный образ «Зару зев»" data-material="Традиционный костюм с вышитым жилетом и головным убором" data-price="Уточняйте стоимость">
+            <div class="product-image-wrap"><img class="product-image" src="file:///C:/Users/User/AppData/Roaming/Code/agentSessionData/80e97514-b117-4c95-a31f-846310527b14/attachments/38e53111-2b88-4356-8047-11ad69a4e213/photo_8_2026-11-19_08-54-10.jpg" alt="Национальный костюм на фоне исторической архитектуры" loading="lazy"><span class="product-tag">Одежда</span></div>
+            <div class="product-info"><h3>Образ «Зару зев»</h3><p>Традиционный костюм для особого случая</p><div class="product-bottom"><span class="product-price">Уточняйте стоимость</span><button class="text-link product-open" type="button">Подробнее ↗</button></div></div>
+          </article>
+          <article class="product-card" data-category="clothing" data-name="Платье «Шоми Хуҷанд»" data-material="Светлая ткань, вышитый жилет, ручная отделка" data-price="Индивидуальный пошив">
+            <div class="product-image-wrap"><img class="product-image" src="file:///C:/Users/User/AppData/Roaming/Code/agentSessionData/80e97514-b117-4c95-a31f-846310527b14/attachments/d0fbc535-8bbb-4d96-a7f9-351f3876ee16/photo_7_2026-11-19_08-54-10.jpg" alt="Светлый традиционный костюм с расшитым жилетом" loading="lazy"><span class="product-tag">Одежда</span></div>
+            <div class="product-info"><h3>Платье «Шоми Хуҷанд»</h3><p>Вышитый жилет и светлая струящаяся ткань</p><div class="product-bottom"><span class="product-price">Индивидуальный пошив</span><button class="text-link product-open" type="button">Подробнее ↗</button></div></div>
+          </article>
+          <article class="product-card" data-category="clothing" data-name="Традиционные образы Озары" data-material="Национальные костюмы и вышитые детали ручной работы" data-price="Коллекция Озары">
+            <div class="product-image-wrap"><img class="product-image" src="file:///C:/Users/User/AppData/Roaming/Code/agentSessionData/80e97514-b117-4c95-a31f-846310527b14/attachments/5102ca64-66e1-4031-8160-780f151cdcc7/photo_6_2026-11-19_08-54-10.jpg" alt="Две женщины в яркой таджикской одежде с вышивкой" loading="lazy"><span class="product-tag">Одежда</span></div>
+            <div class="product-info"><h3>Традиционные образы</h3><p>Ремесло и национальный стиль разных поколений</p><div class="product-bottom"><span class="product-price">Коллекция Озары</span><button class="text-link product-open" type="button">Подробнее ↗</button></div></div>
+          </article>
+          <article class="product-card" data-category="clothing" data-name="Образ «Наврӯз»" data-material="Традиционное платье с яркой вышивкой и национальным орнаментом" data-price="Индивидуальный пошив">
+            <div class="product-image-wrap"><img class="product-image" src="file:///C:/Users/User/AppData/Roaming/Code/agentSessionData/80e97514-b117-4c95-a31f-846310527b14/attachments/a691dee2-b8a0-43d7-9ac0-ca8d1d3488f6/photo_5_2026-11-19_08-54-10.jpg" alt="Традиционный желтый костюм с цветочным орнаментом" loading="lazy"><span class="product-tag">Одежда</span></div>
+            <div class="product-info"><h3>Образ «Наврӯз»</h3><p>Национальный костюм с яркой вышивкой</p><div class="product-bottom"><span class="product-price">Индивидуальный пошив</span><button class="text-link product-open" type="button">Подробнее ↗</button></div></div>
+          </article>
+          <article class="product-card" data-category="pillows" data-name="Подушка «Мавҷи кабуд»" data-material="Натуральная ткань, синие и бирюзовые нити, ручная вышивка" data-price="Уточняйте стоимость">
+            <div class="product-image-wrap"><img class="product-image" src="file:///C:/Users/User/AppData/Roaming/Code/agentSessionData/80e97514-b117-4c95-a31f-846310527b14/attachments/e4ba70bf-c0d4-499c-a3ca-8c558d029df8/photo_3_2026-11-19_08-54-10.jpg" alt="Синяя подушка с бирюзовым вышитым орнаментом" loading="lazy"><span class="product-tag">Подушки</span></div>
+            <div class="product-info"><h3>Подушка «Мавҷи кабуд»</h3><p>Синий хлопок, бирюзовая ручная вышивка</p><div class="product-bottom"><span class="product-price">Уточняйте стоимость</span><button class="text-link product-open" type="button">Подробнее ↗</button></div></div>
+          </article>
+          <article class="product-card" data-category="pillows" data-name="Подушка «Нақши суннатӣ»" data-material="Натуральная ткань, геометрический орнамент, ручная вышивка" data-price="Уточняйте стоимость">
+            <div class="product-image-wrap"><img class="product-image" src="file:///C:/Users/User/AppData/Roaming/Code/agentSessionData/80e97514-b117-4c95-a31f-846310527b14/attachments/f394a3c7-f87d-4553-a603-d113ce57b82b/photo_2_2026-11-19_08-54-10.jpg" alt="Темная подушка с геометрической вышивкой" loading="lazy"><span class="product-tag">Подушки</span></div>
+            <div class="product-info"><h3>Подушка «Нақши суннатӣ»</h3><p>Геометрический орнамент, выполненный вручную</p><div class="product-bottom"><span class="product-price">Уточняйте стоимость</span><button class="text-link product-open" type="button">Подробнее ↗</button></div></div>
+          </article>
+          <article class="product-card" data-category="pillows" data-name="Подушка «Мавҷи сабз» — версия II" data-material="Темно-синяя ткань, цветная ручная вышивка" data-price="Уточняйте стоимость">
+            <div class="product-image-wrap"><img class="product-image" src="file:///C:/Users/User/AppData/Roaming/Code/agentSessionData/80e97514-b117-4c95-a31f-846310527b14/attachments/672d1620-859c-47c8-bc5d-72891d9b0048/photo_4_2026-11-19_08-54-10.jpg" alt="Подушка с бирюзово-золотым цветочным узором" loading="lazy"><span class="product-tag">Подушки</span></div>
+            <div class="product-info"><h3>Подушка «Мавҷи сабз»</h3><p>Темно-синий хлопок, цветная вышивка</p><div class="product-bottom"><span class="product-price">Уточняйте стоимость</span><button class="text-link product-open" type="button">Подробнее ↗</button></div></div>
+          </article>
+          <article class="product-card" data-category="clothing"><div class="product-image-wrap"><img class="product-image" src="./images/photo_26_2026-11-19_11-27-40.jpg" alt="Вышивка светлыми нитями по натуральной ткани" loading="lazy"><span class="product-tag">Одежда</span></div><div class="product-info"><h3>Деталь «Гули кабуд»</h3><p>Ручная вышивка светлыми нитями по натуральной ткани</p><div class="product-bottom"><span class="product-price">Одежда</span></div></div></article>
+          <article class="product-card" data-category="clothing"><div class="product-image-wrap"><img class="product-image" src="./images/photo_24_2026-11-19_11-27-40.jpg" alt="Светлая ткань, вышитый лиф и традиционный орнамент" loading="lazy"><span class="product-tag">Одежда</span></div><div class="product-info"><h3>Платье «Садбарг»</h3><p>Светлая ткань, вышитый лиф и традиционный орнамент</p><div class="product-bottom"><span class="product-price">Индивидуальный пошив</span></div></div></article>
+          <article class="product-card" data-category="clothing"><div class="product-image-wrap"><img class="product-image" src="./images/photo_25_2026-11-19_11-27-40.jpg" alt="Крупный план ручной вышивки на ткани" loading="lazy"><span class="product-tag">Одежда</span></div><div class="product-info"><h3>Вышивка «Садбарг»</h3><p>Крупный план ручной вышивки на ткани</p><div class="product-bottom"><span class="product-price">Одежда</span></div></div></article>
+          <article class="product-card" data-category="clothing"><div class="product-image-wrap"><img class="product-image" src="./images/photo_21_2026-11-19_11-27-40.jpg" alt="Платье с вышитым воротником и узором в стиле икат" loading="lazy"><span class="product-tag">Одежда</span></div><div class="product-info"><h3>Платье «Нилуфар»</h3><p>Платье с вышитым воротником и узором в стиле икат</p><div class="product-bottom"><span class="product-price">Индивидуальный пошив</span></div></div></article>
+          <article class="product-card" data-category="textile"><div class="product-image-wrap"><img class="product-image" src="./images/photo_19_2026-11-19_11-27-40.jpg" alt="Вышивка на ткани в темно-красных и серых тонах" loading="lazy"><span class="product-tag">Текстиль</span></div><div class="product-info"><h3>Орнамент «Гулдӯзӣ»</h3><p>Вышивка на натуральной ткани в темно-красных и серых тонах</p><div class="product-bottom"><span class="product-price">Текстиль</span></div></div></article>
+          <article class="product-card" data-category="clothing"><div class="product-image-wrap"><img class="product-image" src="./images/photo_23_2026-11-19_11-27-40.jpg" alt="Вышитая отделка лифа и рукавов" loading="lazy"><span class="product-tag">Одежда</span></div><div class="product-info"><h3>Лиф «Гулдӯзӣ»</h3><p>Вышитая отделка лифа и рукавов</p><div class="product-bottom"><span class="product-price">Одежда</span></div></div></article>
+          <article class="product-card" data-category="clothing"><div class="product-image-wrap"><img class="product-image" src="./images/photo_22_2026-11-19_11-27-40.jpg" alt="Деталь традиционной ткани и ручной вышивки" loading="lazy"><span class="product-tag">Одежда</span></div><div class="product-info"><h3>Рукав «Гулдӯзӣ»</h3><p>Деталь традиционной ткани и ручной вышивки</p><div class="product-bottom"><span class="product-price">Одежда</span></div></div></article>
+          <article class="product-card" data-category="clothing"><div class="product-image-wrap"><img class="product-image" src="./images/photo_18_2026-11-19_11-27-40.jpg" alt="Светлый традиционный халат с вышитыми узорами" loading="lazy"><span class="product-tag">Одежда</span></div><div class="product-info"><h3>Халат «Нақши суннатӣ»</h3><p>Светлый традиционный халат с вышитыми узорами</p><div class="product-bottom"><span class="product-price">Индивидуальный пошив</span></div></div></article>
+          <article class="product-card" data-category="clothing"><div class="product-image-wrap"><img class="product-image" src="./images/photo_20_2026-11-19_11-27-40.jpg" alt="Светлый халат с вышивкой ручной работы" loading="lazy"><span class="product-tag">Одежда</span></div><div class="product-info"><h3>Халат «Нақши суннатӣ»</h3><p>Светлый халат с вышивкой ручной работы</p><div class="product-bottom"><span class="product-price">Индивидуальный пошив</span></div></div></article>
+          <article class="product-card" data-category="pillows"><div class="product-image-wrap"><img class="product-image" src="./images/photo_17_2026-11-19_11-27-40.jpg" alt="Подушка с голубой и золотистой ручной вышивкой" loading="lazy"><span class="product-tag">Подушки</span></div><div class="product-info"><h3>Подушка «Гули осмон»</h3><p>Натуральная ткань, голубая и золотистая ручная вышивка</p><div class="product-bottom"><span class="product-price">Уточняйте стоимость</span></div></div></article>
+          <article class="product-card" data-category="pillows"><div class="product-image-wrap"><img class="product-image" src="./images/photo_14_2026-11-19_11-27-40.jpg" alt="Подушка с гранатами и листьями" loading="lazy"><span class="product-tag">Подушки</span></div><div class="product-info"><h3>Подушка «Боғи анор»</h3><p>Хлопок, гранатовый орнамент, вышитый вручную</p><div class="product-bottom"><span class="product-price">Уточняйте стоимость</span></div></div></article>
+          <article class="product-card" data-category="pillows"><div class="product-image-wrap"><img class="product-image" src="./images/photo_16_2026-11-19_11-27-40.jpg" alt="Подушка с вышитыми цветами" loading="lazy"><span class="product-tag">Подушки</span></div><div class="product-info"><h3>Подушка «Гули осмон»</h3><p>Натуральная ткань, голубая и золотистая ручная вышивка</p><div class="product-bottom"><span class="product-price">Уточняйте стоимость</span></div></div></article>
+          <article class="product-card" data-category="textile"><div class="product-image-wrap"><img class="product-image" src="./images/photo_15_2026-11-19_11-27-40.jpg" alt="Крупный план гранатового орнамента" loading="lazy"><span class="product-tag">Текстиль</span></div><div class="product-info"><h3>Орнамент «Боғи анор»</h3><p>Деталь вышивки гранатового сада</p><div class="product-bottom"><span class="product-price">Текстиль</span></div></div></article>
+          <article class="product-card" data-category="pillows"><div class="product-image-wrap"><img class="product-image" src="./images/photo_12_2026-11-19_11-27-40.jpg" alt="Подушка с центральным орнаментом" loading="lazy"><span class="product-tag">Подушки</span></div><div class="product-info"><h3>Подушка «Нақши заррин»</h3><p>Хлопок, светлая вышивка с традиционными мотивами</p><div class="product-bottom"><span class="product-price">Уточняйте стоимость</span></div></div></article>
+          <article class="product-card" data-category="textile"><div class="product-image-wrap"><img class="product-image" src="./images/photo_11_2026-11-19_11-27-40.jpg" alt="Деталь зеленой вышивки" loading="lazy"><span class="product-tag">Текстиль</span></div><div class="product-info"><h3>Орнамент «Сабзи»</h3><p>Ручная вышивка зеленой и светлой нитью</p><div class="product-bottom"><span class="product-price">Текстиль</span></div></div></article>
+          <article class="product-card" data-category="textile"><div class="product-image-wrap"><img class="product-image" src="./images/photo_13_2026-11-19_11-27-40.jpg" alt="Крупный план вышитого орнамента" loading="lazy"><span class="product-tag">Текстиль</span></div><div class="product-info"><h3>Орнамент «Нақши заррин»</h3><p>Фактурная вышивка с растительными мотивами</p><div class="product-bottom"><span class="product-price">Текстиль</span></div></div></article>
+          <article class="product-card" data-category="clothing"><div class="product-image-wrap"><img class="product-image" src="./images/photo_6_2026-11-19_11-27-40.jpg" alt="Женский жакет с вышитыми деталями" loading="lazy"><span class="product-tag">Одежда</span></div><div class="product-info"><h3>Жакет «Рангин»</h3><p>Икат и яркая традиционная вышивка</p><div class="product-bottom"><span class="product-price">Индивидуальный пошив</span></div></div></article>
+          <article class="product-card" data-category="pillows"><div class="product-image-wrap"><img class="product-image" src="./images/photo_8_2026-11-19_11-27-40.jpg" alt="Подушка с цветочным орнаментом" loading="lazy"><span class="product-tag">Подушки</span></div><div class="product-info"><h3>Подушка «Гули сабз»</h3><p>Натуральная ткань, выразительная цветная вышивка</p><div class="product-bottom"><span class="product-price">Уточняйте стоимость</span></div></div></article>
+          <article class="product-card" data-category="pillows"><div class="product-image-wrap"><img class="product-image" src="./images/photo_10_2026-11-19_11-27-40.jpg" alt="Подушка с растительной вышивкой" loading="lazy"><span class="product-tag">Подушки</span></div><div class="product-info"><h3>Подушка «Сабзи»</h3><p>Темная ткань, розовая и зеленая ручная вышивка</p><div class="product-bottom"><span class="product-price">Уточняйте стоимость</span></div></div></article>
+          <article class="product-card" data-category="textile"><div class="product-image-wrap"><img class="product-image" src="./images/photo_9_2026-11-19_11-27-40.jpg" alt="Крупный план цветного орнамента" loading="lazy"><span class="product-tag">Текстиль</span></div><div class="product-info"><h3>Орнамент «Сабзи»</h3><p>Деталь яркой растительной вышивки</p><div class="product-bottom"><span class="product-price">Текстиль</span></div></div></article>
+          <article class="product-card" data-category="clothing"><div class="product-image-wrap"><img class="product-image" src="./images/photo_4_2026-11-19_11-27-40.jpg" alt="Жакет с цветной вышивкой" loading="lazy"><span class="product-tag">Одежда</span></div><div class="product-info"><h3>Жакет «Нақши рангин»</h3><p>Икатовая ткань и вышитые цветочные мотивы</p><div class="product-bottom"><span class="product-price">Индивидуальный пошив</span></div></div></article>
+          <article class="product-card" data-category="textile"><div class="product-image-wrap"><img class="product-image" src="./images/photo_5_2026-11-19_11-27-40.jpg" alt="Деталь вышитого жакета" loading="lazy"><span class="product-tag">Текстиль</span></div><div class="product-info"><h3>Вышивка «Нақши рангин»</h3><p>Яркие цветы и геометрические мотивы ручной работы</p><div class="product-bottom"><span class="product-price">Текстиль</span></div></div></article>
+          <article class="product-card" data-category="textile"><div class="product-image-wrap"><img class="product-image" src="./images/photo_7_2026-11-19_11-27-40.jpg" alt="Деталь оранжевого вышитого лифа" loading="lazy"><span class="product-tag">Текстиль</span></div><div class="product-info"><h3>Орнамент «Гули норинҷ»</h3><p>Оранжевая ткань и цветочная вышивка</p><div class="product-bottom"><span class="product-price">Текстиль</span></div></div></article>
+          <article class="product-card" data-category="clothing"><div class="product-image-wrap"><img class="product-image" src="./images/photo_2_2026-11-19_11-27-40.jpg" alt="Традиционный темный костюм" loading="lazy"><span class="product-tag">Одежда</span></div><div class="product-info"><h3>Платье «Сиёҳгул»</h3><p>Национальный образ с орнаментальной отделкой</p><div class="product-bottom"><span class="product-price">Индивидуальный пошив</span></div></div></article>
+          <article class="product-card" data-category="clothing"><div class="product-image-wrap"><img class="product-image" src="./images/photo_3_2026-11-19_11-27-40.jpg" alt="Национальный образ с вышивкой" loading="lazy"><span class="product-tag">Одежда</span></div><div class="product-info"><h3>Образ «Сиёҳгул»</h3><p>Традиционный наряд с вышивкой ручной работы</p><div class="product-bottom"><span class="product-price">Индивидуальный пошив</span></div></div></article>
+          <article class="product-card" data-category="clothing"><div class="product-image-wrap"><img class="product-image" src="./images/photo_1_2026-11-19_11-27-40.jpg" alt="Платье с геометрическим орнаментом" loading="lazy"><span class="product-tag">Одежда</span></div><div class="product-info"><h3>Платье «Сиёҳгул»</h3><p>Темная ткань, геометрический орнамент и ручная вышивка</p><div class="product-bottom"><span class="product-price">Индивидуальный пошив</span></div></div></article>
+          <article class="product-card" data-category="textile"><div class="product-image-wrap"><img class="product-image" src="./images/photo_7_2026-11-19_11-27-40.jpg" alt="Крупный план цветочной вышивки" loading="lazy"><span class="product-tag">Текстиль</span></div><div class="product-info"><h3>Вышивка «Гули баҳор»</h3><p>Рельефные цветы и растительный орнамент</p><div class="product-bottom"><span class="product-price">Текстиль</span></div></div></article>
+          <article class="product-card" data-category="textile"><div class="product-image-wrap"><img class="product-image" src="./images/photo_6_2026-11-19_11-27-40.jpg" alt="Вышитый цветочный текстиль" loading="lazy"><span class="product-tag">Текстиль</span></div><div class="product-info"><h3>Текстиль «Гули баҳор»</h3><p>Белая ткань с яркими цветочными мотивами ручной работы</p><div class="product-bottom"><span class="product-price">Текстиль</span></div></div></article>
+          <article class="product-card" data-category="clothing"><div class="product-image-wrap"><img class="product-image" src="./images/photo_5_2026-11-19_11-27-40.jpg" alt="Халат с цветочной вышивкой" loading="lazy"><span class="product-tag">Одежда</span></div><div class="product-info"><h3>Халат «Гули баҳор»</h3><p>Светлый халат с вышивкой цветов и листьев</p><div class="product-bottom"><span class="product-price">Индивидуальный пошив</span></div></div></article>
+          <article class="product-card" data-category="clothing"><div class="product-image-wrap"><img class="product-image" src="./images/photo_4_2026-11-19_11-27-40.jpg" alt="Светлый халат на манекене" loading="lazy"><span class="product-tag">Одежда</span></div><div class="product-info"><h3>Халат «Гули баҳор»</h3><p>Традиционный крой, цветочная ручная вышивка</p><div class="product-bottom"><span class="product-price">Индивидуальный пошив</span></div></div></article>
+          <article class="product-card" data-category="clothing"><div class="product-image-wrap"><img class="product-image" src="./images/photo_3_2026-11-19_11-27-40.jpg" alt="Платье с крупным геометрическим орнаментом" loading="lazy"><span class="product-tag">Одежда</span></div><div class="product-info"><h3>Платье «Сиёҳ нақш»</h3><p>Темное платье с традиционными геометрическими мотивами</p><div class="product-bottom"><span class="product-price">Индивидуальный пошив</span></div></div></article>
+          <article class="product-card" data-category="clothing"><div class="product-image-wrap"><img class="product-image" src="./images/photo_2_2026-11-19_11-27-40.jpg" alt="Темное платье с вышитой отделкой" loading="lazy"><span class="product-tag">Одежда</span></div><div class="product-info"><h3>Платье «Сиёҳ нақш»</h3><p>Традиционная ткань и выразительная вышитая отделка</p><div class="product-bottom"><span class="product-price">Индивидуальный пошив</span></div></div></article>
+          <article class="product-card" data-category="clothing"><div class="product-image-wrap"><img class="product-image" src="./images/photo_1_2026-11-19_11-27-40.jpg" alt="Национальный образ с вышивкой" loading="lazy"><span class="product-tag">Одежда</span></div><div class="product-info"><h3>Образ «Сиёҳ нақш»</h3><p>Традиционный темный образ с вышитым головным убором</p><div class="product-bottom"><span class="product-price">Индивидуальный пошив</span></div></div></article>
+        </div>
+        <p class="catalogue-note">Изделия создаются вручную, поэтому размеры и узоры могут немного отличаться. Стоимость и наличие уточняйте у нашей команды.</p>
+      </div>
+    </section>
+
+    <section class="craft" id="craft">
+      <div class="container">
+        <span class="eyebrow">От нити к истории</span>
+        <h2>В каждом стежке — время и внимание</h2>
+        <p class="craft-intro">Наш процесс уважает материал, традицию и талант мастерицы. Ни одна вещь не повторяет другую в точности.</p>
+        <div class="steps">
+          <article class="step"><span class="step-number">01 / Основа</span><h3>Натуральная ткань</h3><p>Выбираем хлопок и шелк, приятные на ощупь и созданные служить долго.</p></article>
+          <article class="step"><span class="step-number">02 / Замысел</span><h3>Орнамент</h3><p>Находим вдохновение в природе, архитектуре и символах родного края.</p></article>
+          <article class="step"><span class="step-number">03 / Мастерство</span><h3>Ручная вышивка</h3><p>Мастерица переносит рисунок на ткань стежок за стежком.</p></article>
+          <article class="step"><span class="step-number">04 / Завершение</span><h3>Ваша история</h3><p>Проверяем каждую деталь и готовим вещь к новой жизни в вашем доме.</p></article>
+        </div>
+        <div class="ornament craft-ornament" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M16 3c2 6 4.3 8.3 10 10-5.7 1.7-8 4-10 10-2-6-4.3-8.3-10-10 5.7-1.7 8-4 10-10Z" stroke="currentColor"/><circle cx="16" cy="13" r="2" fill="currentColor"/></svg></div>
+      </div>
+    </section>
+
+    <section class="partnership" id="partners">
+      <div class="container partner-layout">
+        <div class="partner-image"><img src="https://images.unsplash.com/photo-1452860606245-08befc0ff44b?auto=format&fit=crop&w=1000&q=85" alt="Мастерская и творческий процесс ручной работы" loading="lazy"></div>
+        <div class="partner-copy">
+          <span class="eyebrow">Вместе — больше</span>
+          <h2>Партнерство с уважением к ремеслу</h2>
+          <p>Открыты к сотрудничеству с дизайнерами, брендами, магазинами и компаниями, которым близки подлинность и ответственное производство.</p>
+          <ul class="partner-list">
+            <li>Индивидуальные изделия и совместные коллекции</li>
+            <li>Корпоративные подарки с национальной символикой</li>
+            <li>Партии для магазинов и экспортные поставки</li>
+          </ul>
+          <a class="button" href="#contacts">Обсудить сотрудничество <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contacts">
+      <div class="container contact-layout">
+        <div class="contact-copy">
+          <span class="eyebrow">Будем на связи</span>
+          <h2>Ваша история начинается здесь</h2>
+          <p>Расскажите, что вы ищете: мы поможем выбрать изделие или обсудим проект для вашей команды.</p>
+          <div class="contact-detail">
+            <span class="contact-icon"><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M16.5 8.3c0 4.6-6.5 9.2-6.5 9.2S3.5 12.9 3.5 8.3a6.5 6.5 0 1 1 13 0Z" stroke="currentColor" stroke-width="1.3"/><circle cx="10" cy="8" r="2.1" stroke="currentColor" stroke-width="1.3"/></svg></span>
+            <div><strong>Найдите нас</strong><p>г. Худжанд, Согдийская область,<br>Республика Таджикистан</p></div>
+          </div>
+          <div class="contact-detail">
+            <span class="contact-icon"><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M6.1 3.2 8.3 6.7 6.8 8.2c.9 1.9 2.4 3.4 4.3 4.3l1.5-1.5 3.5 2.2-.5 2.5c-.2.8-1 1.3-1.8 1.2C8 16 4 12 3.1 6.2c-.1-.8.4-1.6 1.2-1.8l1.8-1.2Z" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/></svg></span>
+            <div><strong>Позвоните нам</strong><a href="tel:+992000000000">+992 (92-720-80-10)</a></div>
+          </div>
+          <div class="social-links" aria-label="Социальные сети">
+            <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer">Instagram ↗</a>
+            <a href="https://wa.me/" target="_blank" rel="noopener noreferrer">WhatsApp ↗</a>
+            <a href="https://t.me/" target="_blank" rel="noopener noreferrer">Telegram ↗</a>
+          </div>
+        </div>
+        <div class="contact-form">
+          <h3>Напишите нам</h3>
+          <p>Оставьте сообщение в Instagram — мы ответим и поможем с выбором.</p>
+          <a class="button" href="https://www.instagram.com/ozara_company/" target="_blank" rel="noopener noreferrer">Написать в Instagram <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a class="brand" href="#top" aria-label="Озара — наверх">
+        <img class="brand-logo" src="file:///C:/Users/User/AppData/Roaming/Code/agentSessionData/80e97514-b117-4c95-a31f-846310527b14/attachments/bdfec737-0887-4cc1-9a40-b3d460a65b97/Image%20from%20URL.png" alt="Логотип Озара">
+      </a>
+      <p>© 2025 «Озара». Традиция, созданная вручную.</p>
+      <div class="footer-links"><a href="#about">О нас</a><a href="./ozara.html?view=collections#collections" target="_blank" rel="noopener">Коллекции</a><a href="#contacts">Контакты</a></div>
+    </div>
+  </footer>
+
+  <div class="modal" id="product-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" aria-hidden="true">
+    <div class="modal-panel">
+      <button class="modal-close" type="button" aria-label="Закрыть окно">×</button>
+      <img class="modal-image" src="" alt="">
+      <div class="modal-copy">
+        <span class="eyebrow">Изделие Озары</span>
+        <h2 id="modal-title"></h2>
+        <p id="modal-material"></p>
+        <span class="product-price" id="modal-price"></span>
+        <p>Изделие создается вручную нашими мастерицами. Напишите нам, чтобы уточнить наличие, сроки и варианты персонализации.</p>
+        <a class="button modal-order" href="#contacts">Узнать подробнее <span aria-hidden="true">↗</span></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Static HTML version; the former script is disabled below.
+    const isCollectionView = new URLSearchParams(window.location.search).get("view") === "collections";
+    if (isCollectionView) {
+      document.body.classList.add("collection-view");
+      document.querySelectorAll(".brand").forEach((brand) => {
+        brand.href = "./ozara.html";
+        brand.setAttribute("aria-label", "Озара — на главную");
+      });
+
+      const collectionNavigation = {
+        "#about": "./ozara.html#about",
+        "#impact": "./ozara.html#impact",
+        "#collections": "#collections",
+        "#partners": "./ozara.html#partners",
+        "#contacts": "./ozara.html#contacts"
+      };
+      document.querySelectorAll("#main-nav a").forEach((link) => {
+        const destination = collectionNavigation[link.getAttribute("href")];
+        if (destination) {
+          link.href = destination;
+          link.removeAttribute("target");
+          link.removeAttribute("rel");
+        }
+      });
+      document.querySelector(".header-contact").href = "./ozara.html#contacts";
+    }
+
+    const newCollectionItems = [
+      ["0da6c33b-dcea-4a05-917d-b1cff83bc251", 26, "clothing", "Деталь «Гули кабуд»", "Ручная вышивка светлыми нитями по натуральной ткани", "Одежда", "Вышивка на ткани"],
+      ["6c2df6c0-1c48-438c-837f-4eb08fbad827", 24, "clothing", "Платье «Садбарг»", "Светлая ткань, вышитый лиф и традиционный орнамент", "Индивидуальный пошив", "Праздничное платье с вышивкой"],
+      ["b9b3bc59-b6ff-4ead-898e-6341335ef1e5", 25, "clothing", "Вышивка «Садбарг»", "Крупный план ручной вышивки на ткани", "Одежда", "Деталь цветочной вышивки"],
+      ["a9d22d65-bd82-43a9-b9de-d0d1b7d735c4", 21, "clothing", "Платье «Нилуфар»", "Платье с вышитым воротником и узором в стиле икат", "Индивидуальный пошив", "Женщина в платье с вышивкой"],
+      ["d6a42644-a5c8-46d9-95d3-6ff601a3fd96", 19, "textile", "Орнамент «Гулдӯзӣ»", "Вышивка на натуральной ткани в темно-красных и серых тонах", "Текстиль", "Деталь орнамента на ткани"],
+      ["3f6b6ed4-b849-4cf4-ab8e-496343c4b41a", 23, "clothing", "Лиф «Гулдӯзӣ»", "Вышитая отделка лифа и рукавов", "Одежда", "Вышитый лиф традиционного платья"],
+      ["93d79a10-c605-4898-a687-081afd2ba7ec", 22, "clothing", "Рукав «Гулдӯзӣ»", "Деталь традиционной ткани и ручной вышивки", "Одежда", "Деталь рукава с вышивкой"],
+      ["7f2b53e8-c385-4be9-b6d3-ea6ffd850439", 18, "clothing", "Халат «Нақши суннатӣ»", "Светлый традиционный халат с вышитыми узорами", "Индивидуальный пошив", "Светлый халат с национальным орнаментом"],
+      ["d3c7257c-263f-4023-a105-837d5d609ddf", 20, "clothing", "Халат «Нақши суннатӣ»", "Светлый халат с вышивкой ручной работы", "Индивидуальный пошив", "Традиционный вышитый халат"],
+      ["8b772d07-9de5-4328-a649-858a77caf512", 17, "pillows", "Подушка «Гули осмон»", "Натуральная ткань, голубая и золотистая ручная вышивка", "Уточняйте стоимость", "Подушка с голубым цветочным узором"],
+      ["fa709c18-135b-4b8a-b857-b5996d5c848f", 14, "pillows", "Подушка «Боғи анор»", "Хлопок, гранатовый орнамент, вышитый вручную", "Уточняйте стоимость", "Подушка с гранатами и листьями"],
+      ["a5ff1964-3d16-4597-b77f-04f0d86119d3", 16, "pillows", "Подушка «Гули осмон»", "Натуральная ткань, голубая и золотистая ручная вышивка", "Уточняйте стоимость", "Подушка с вышитыми цветами"],
+      ["98861602-b7ce-4713-a2da-cd05d5eb3e67", 15, "textile", "Орнамент «Боғи анор»", "Деталь вышивки гранатового сада", "Текстиль", "Крупный план гранатового орнамента"],
+      ["9accc826-27b5-4047-9684-25eca8d84189", 12, "pillows", "Подушка «Нақши заррин»", "Хлопок, светлая вышивка с традиционными мотивами", "Уточняйте стоимость", "Подушка с центральным орнаментом"],
+      ["bfe917b2-54a5-4220-b0b0-27ac8c6f73da", 11, "textile", "Орнамент «Сабзи»", "Ручная вышивка зеленой и светлой нитью", "Текстиль", "Деталь зеленой вышивки"],
+      ["31b06859-d7cc-42d2-9c74-0a1af412ab9f", 13, "textile", "Орнамент «Нақши заррин»", "Фактурная вышивка с растительными мотивами", "Текстиль", "Крупный план вышитого орнамента"],
+      ["9d910f03-19a4-432d-8c52-5e5679bb91c7", 6, "clothing", "Жакет «Рангин»", "Икат и яркая традиционная вышивка", "Индивидуальный пошив", "Женский жакет с вышитыми деталями"],
+      ["41eaaba4-06c5-4a4d-9542-e36f02a511a8", 8, "pillows", "Подушка «Гули сабз»", "Натуральная ткань, выразительная цветная вышивка", "Уточняйте стоимость", "Подушка с цветочным орнаментом"],
+      ["64e58f88-4c43-456d-a0d4-cf688bd63005", 10, "pillows", "Подушка «Сабзи»", "Темная ткань, розовая и зеленая ручная вышивка", "Уточняйте стоимость", "Подушка с растительной вышивкой"],
+      ["da36b99c-7cb9-4973-b171-7b041dd0b45c", 9, "textile", "Орнамент «Сабзи»", "Деталь яркой растительной вышивки", "Текстиль", "Крупный план цветного орнамента"],
+      ["1e310d70-d816-4f0e-8efa-a93fdaa3344a", 4, "clothing", "Жакет «Нақши рангин»", "Икатовая ткань и вышитые цветочные мотивы", "Индивидуальный пошив", "Жакет с цветной вышивкой"],
+      ["1a9bced2-8954-436f-b2a1-234d078195f7", 5, "textile", "Вышивка «Нақши рангин»", "Яркие цветы и геометрические мотивы ручной работы", "Текстиль", "Деталь вышитого жакета"],
+      ["44694c6d-f875-4f61-94a5-df0097a0e191", 7, "textile", "Орнамент «Гули норинҷ»", "Оранжевая ткань и цветочная вышивка", "Текстиль", "Деталь оранжевого вышитого лифа"],
+      ["482229fa-06cc-469d-ac70-eb1fdd0c615e", 2, "clothing", "Платье «Сиёҳгул»", "Национальный образ с орнаментальной отделкой", "Индивидуальный пошив", "Традиционный темный костюм"],
+      ["99ad75ef-cb73-4c3f-a35c-503b115abedd", 3, "clothing", "Образ «Сиёҳгул»", "Традиционный наряд с вышивкой ручной работы", "Индивидуальный пошив", "Национальный образ с вышивкой"],
+      ["9916ff52-d4cf-40b0-abfc-c398696c6f19", 1, "clothing", "Платье «Сиёҳгул»", "Темная ткань, геометрический орнамент и ручная вышивка", "Индивидуальный пошив", "Платье с геометрическим орнаментом"],
+      ["47a69cda-e431-4de8-855a-dcf33e72f63e", 7, "textile", "Вышивка «Гули баҳор»", "Рельефные цветы и растительный орнамент", "Текстиль", "Крупный план цветочной вышивки"],
+      ["fcf22e39-03c7-4400-bfe1-267830ef14d1", 6, "textile", "Текстиль «Гули баҳор»", "Белая ткань с яркими цветочными мотивами ручной работы", "Текстиль", "Вышитый цветочный текстиль"],
+      ["771c29b2-28a9-4e85-a10b-7da52e06a8b7", 5, "clothing", "Халат «Гули баҳор»", "Светлый халат с вышивкой цветов и листьев", "Индивидуальный пошив", "Халат с цветочной вышивкой"],
+      ["3f0a2d73-2ace-4163-b9cd-69da75f9cc3c", 4, "clothing", "Халат «Гули баҳор»", "Традиционный крой, цветочная ручная вышивка", "Индивидуальный пошив", "Светлый халат на манекене"],
+      ["e45daca7-1ff1-45a3-8868-4b40779a1db1", 3, "clothing", "Платье «Сиёҳ нақш»", "Темное платье с традиционными геометрическими мотивами", "Индивидуальный пошив", "Платье с крупным геометрическим орнаментом"],
+      ["e58cf2a0-8168-4d58-8826-36378f274ff1", 2, "clothing", "Платье «Сиёҳ нақш»", "Традиционная ткань и выразительная вышитая отделка", "Индивидуальный пошив", "Темное платье с вышитой отделкой"],
+      ["8fc51dbb-1401-4bbb-98e7-739d47df1834", 1, "clothing", "Образ «Сиёҳ нақш»", "Традиционный темный образ с вышитым головным убором", "Индивидуальный пошив", "Национальный образ с вышивкой"]
+    ];
+
+    const collectionGrid = document.querySelector(".product-grid");
+    const attachmentBase = "file:///C:/Users/User/AppData/Roaming/Code/agentSessionData/80e97514-b117-4c95-a31f-846310527b14/attachments/";
+    newCollectionItems.forEach(([folder, number, category, name, material, price, alt]) => {
+      const card = document.createElement("article");
+      card.className = "product-card";
+      card.dataset.category = category;
+      card.dataset.name = name;
+      card.dataset.material = material;
+      card.dataset.price = price;
+
+      const imageWrap = document.createElement("div");
+      imageWrap.className = "product-image-wrap";
+      const image = document.createElement("img");
+      image.className = "product-image";
+      image.src = `${attachmentBase}${folder}/photo_${number}_2026-11-19_09-06-${folder === "47a69cda-e431-4de8-855a-dcf33e72f63e" || folder === "fcf22e39-03c7-4400-bfe1-267830ef14d1" || folder === "771c29b2-28a9-4e85-a10b-7da52e06a8b7" || folder === "3f0a2d73-2ace-4163-b9cd-69da75f9cc3c" || folder === "e45daca7-1ff1-45a3-8868-4b40779a1db1" || folder === "e58cf2a0-8168-4d58-8826-36378f274ff1" || folder === "8fc51dbb-1401-4bbb-98e7-739d47df1834" ? "26" : "57"}.jpg`;
+      image.alt = alt;
+      image.loading = "lazy";
+      const tag = document.createElement("span");
+      tag.className = "product-tag";
+      tag.textContent = category === "pillows" ? "Подушки" : category === "clothing" ? "Одежда" : "Текстиль";
+      imageWrap.append(image, tag);
+
+      const info = document.createElement("div");
+      info.className = "product-info";
+      const title = document.createElement("h3");
+      title.textContent = name;
+      const description = document.createElement("p");
+      description.textContent = material;
+      const bottom = document.createElement("div");
+      bottom.className = "product-bottom";
+      const priceLabel = document.createElement("span");
+      priceLabel.className = "product-price";
+      priceLabel.textContent = price;
+      const details = document.createElement("button");
+      details.className = "text-link product-open";
+      details.type = "button";
+      details.textContent = "Подробнее ↗";
+      bottom.append(priceLabel, details);
+      info.append(title, description, bottom);
+      card.append(imageWrap, info);
+      collectionGrid.append(card);
+    });
+
+    const revealElements = document.querySelectorAll(
+      ".story-copy, .impact-card, .section-heading, .filters, .product-card, .craft .eyebrow, .craft h2, .craft-intro, .step, .partner-image, .partner-copy, .contact-copy, .contact-form, .footer-inner"
+    );
+
+    if ("IntersectionObserver" in window) {
+      const revealObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach((entry) => {
+          if (!entry.isIntersecting) return;
+          entry.target.classList.add("is-visible");
+          observer.unobserve(entry.target);
+        });
+      }, { threshold: 0.12, rootMargin: "0px 0px -35px 0px" });
+
+      revealElements.forEach((element, index) => {
+        element.classList.add("reveal");
+        element.style.setProperty("--reveal-delay", `${(index % 4) * 90}ms`);
+        revealObserver.observe(element);
+      });
+    } else {
+      revealElements.forEach((element) => element.classList.add("is-visible"));
+    }
+
+    const filterButtons = document.querySelectorAll(".filter-button");
+    const productCards = document.querySelectorAll(".product-card");
+
+    filterButtons.forEach((button) => {
+      button.addEventListener("click", () => {
+        const category = button.dataset.filter;
+        filterButtons.forEach((item) => {
+          const isActive = item === button;
+          item.classList.toggle("is-active", isActive);
+          item.setAttribute("aria-pressed", String(isActive));
+        });
+        productCards.forEach((card) => {
+          card.hidden = category !== "all" && card.dataset.category !== category;
+        });
+      });
+    });
+
+    const modal = document.querySelector("#product-modal");
+    const modalImage = modal.querySelector(".modal-image");
+    const closeButton = modal.querySelector(".modal-close");
+    let lastFocusedElement;
+
+    function closeModal() {
+      modal.classList.remove("is-open");
+      modal.setAttribute("aria-hidden", "true");
+      document.body.classList.remove("modal-open");
+      if (lastFocusedElement) lastFocusedElement.focus();
+    }
+
+    document.querySelectorAll(".product-open").forEach((button) => {
+      button.addEventListener("click", () => {
+        const card = button.closest(".product-card");
+        const image = card.querySelector(".product-image");
+        lastFocusedElement = button;
+        modalImage.src = image.src;
+        modalImage.alt = image.alt;
+        modal.querySelector("#modal-title").textContent = translateProductName(card.dataset.name, currentLanguage);
+        modal.querySelector("#modal-material").textContent = currentLanguage === "ru"
+          ? card.dataset.material
+          : translateProductDescription(card.dataset.category, currentLanguage);
+        modal.querySelector("#modal-price").textContent = currentLanguage === "ru"
+          ? card.dataset.price
+          : interfaceTranslations[currentLanguage][card.dataset.price] || card.dataset.price;
+        modal.classList.add("is-open");
+        modal.setAttribute("aria-hidden", "false");
+        document.body.classList.add("modal-open");
+        closeButton.focus();
+      });
+    });
+
+    closeButton.addEventListener("click", closeModal);
+    modal.addEventListener("click", (event) => {
+      if (event.target === modal) closeModal();
+    });
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape" && modal.classList.contains("is-open")) closeModal();
+    });
+    modal.querySelector(".modal-order").addEventListener("click", closeModal);
+
+    const menuToggle = document.querySelector(".menu-toggle");
+    const navigation = document.querySelector("#main-nav");
+    menuToggle.addEventListener("click", () => {
+      const isOpen = menuToggle.getAttribute("aria-expanded") === "true";
+      menuToggle.setAttribute("aria-expanded", String(!isOpen));
+      menuToggle.setAttribute("aria-label", isOpen ? "Открыть меню" : "Закрыть меню");
+      navigation.classList.toggle("is-open", !isOpen);
+    });
+    navigation.querySelectorAll("a").forEach((link) => {
+      link.addEventListener("click", () => {
+        navigation.classList.remove("is-open");
+        menuToggle.setAttribute("aria-expanded", "false");
+        menuToggle.setAttribute("aria-label", "Открыть меню");
+      });
+    });
+
+    const interfaceTranslations = {
+      en: {
+        "Озара — искусство таджикской вышивки": "Ozara — the art of Tajik embroidery",
+        "Логотип Озара": "Ozara logo", "Озара — на главную": "Ozara — home", "Озара — наверх": "Ozara — back to top",
+        "Основная навигация": "Main navigation", "О нас": "About", "Коллекции": "Collections",
+        "Наша миссия": "Our mission", "Партнерам": "For partners", "Контакты": "Contact",
+        "Выбор языка": "Select language", "Связаться": "Get in touch", "Открыть меню": "Open menu", "Закрыть меню": "Close menu",
+        "Ремесло с душой · Худжанд": "Craft with soul · Khujand",
+        "Искусство таджикской вышивки": "The art of Tajik embroidery",
+        "в новом прочтении": "reimagined for today",
+        "Традиционные орнаменты, созданные руками мастериц Худжанда на натуральном хлопке и шелке. Каждая вещь — история, которую хочется хранить.": "Traditional motifs, handcrafted by women artisans in Khujand on natural cotton and silk. Every piece tells a story to cherish.",
+        "Смотреть коллекцию": "Explore the collection", "Ручная работа, созданная с заботой": "Handcrafted with care",
+        "Фактура ткани и ручная вышивка в теплых природных оттенках": "Hand embroidery and textile texture in warm natural tones",
+        "натуральные материалы": "natural materials", "Листайте ниже": "Scroll to discover",
+        "Наследие, которое живет": "A living heritage", "Красота традиции — в руках мастериц": "Tradition's beauty, in the hands of artisans",
+        "«Озара» родилась в 2011 году в Худжанде как социальное предприятие при поддержке Национальной Ассоциации Деловых Женщин Таджикистана (НАДЖТ). Мы объединяем мастериц, чтобы традиционное ремесло становилось делом будущего.": "Founded in Khujand in 2011 with support from the National Association of Business Women of Tajikistan, Ozara is a social enterprise. We bring artisans together so traditional craft can thrive in the future.",
+        "Сузане — это не просто узор. Это язык символов, семейная память и мастерство, которое передается от поколения к поколению. Мы бережно вплетаем его в вещи для современной жизни.": "Suzani is more than a pattern. It is a language of symbols, family memory, and skill passed down through generations. We thoughtfully bring it into pieces for modern life.",
+        "Узнать о процессе": "Discover the process", "Мастериц": "Women artisans",
+        "Обучили ремеслу и поддержали в развитии собственного дела.": "Trained in traditional crafts and supported in growing their own businesses.",
+        "Натуральные ткани": "Natural fabrics", "Хлопок и шелк — приятная основа для каждой вышитой истории.": "Cotton and silk are a beautiful foundation for every embroidered story.",
+        "Живое наследие": "A living heritage", "Сохраняем таджикские орнаменты и передаем традиции дальше.": "Preserving Tajik motifs and passing traditions on.",
+        "Новые горизонты": "New horizons", "Знакомим с ремеслом и изделиями Озары покупателей по всему миру.": "Sharing Ozara's craft and creations with customers around the world.",
+        "Создано вручную": "Made by hand", "Коллекции Озары": "Ozara collections",
+        "Небольшие серии и уникальные изделия, в которых встречаются древний орнамент и современная форма.": "Small batches and one-of-a-kind pieces where ancient motifs meet contemporary design.",
+        "Все изделия": "All pieces", "Сузане и панно": "Suzani & wall art", "Подушки": "Cushions",
+        "Одежда": "Clothing", "Текстиль": "Textiles", "Мастерская": "Atelier",
+        "Фильтр по категориям": "Filter by category",
+        "Изделия создаются вручную, поэтому размеры и узоры могут немного отличаться. Стоимость и наличие уточняйте у нашей команды.": "Each piece is handmade, so sizes and patterns may vary slightly. Contact our team for prices and availability.",
+        "От нити к истории": "From thread to story", "В каждом стежке — время и внимание": "Every stitch holds time and care",
+        "Наш процесс уважает материал, традицию и талант мастерицы. Ни одна вещь не повторяет другую в точности.": "Our process honors the materials, tradition, and each artisan's skill. No two pieces are exactly alike.",
+        "01 / Основа": "01 / The foundation", "Натуральная ткань": "Natural fabric",
+        "Выбираем хлопок и шелк, приятные на ощупь и созданные служить долго.": "We choose cotton and silk that feel beautiful and are made to last.",
+        "02 / Замысел": "02 / The idea", "Орнамент": "Motif",
+        "Находим вдохновение в природе, архитектуре и символах родного края.": "We find inspiration in nature, architecture, and symbols of our homeland.",
+        "03 / Мастерство": "03 / The craft", "Ручная вышивка": "Hand embroidery",
+        "Мастерица переносит рисунок на ткань стежок за стежком.": "An artisan brings the design to life on fabric, one stitch at a time.",
+        "04 / Завершение": "04 / The finishing touch", "Ваша история": "Your story",
+        "Проверяем каждую деталь и готовим вещь к новой жизни в вашем доме.": "We check every detail and prepare each piece for its new life in your home.",
+        "Мастерская и творческий процесс ручной работы": "The atelier and the handmade creative process",
+        "Вместе — больше": "Together, we create more", "Партнерство с уважением к ремеслу": "Partnership rooted in respect for craft",
+        "Открыты к сотрудничеству с дизайнерами, брендами, магазинами и компаниями, которым близки подлинность и ответственное производство.": "We welcome designers, brands, shops, and organizations who value authenticity and responsible production.",
+        "Индивидуальные изделия и совместные коллекции": "Custom pieces and collaborative collections",
+        "Корпоративные подарки с национальной символикой": "Corporate gifts with national motifs",
+        "Партии для магазинов и экспортные поставки": "Wholesale orders and export",
+        "Обсудить сотрудничество": "Discuss a partnership", "Будем на связи": "Let's keep in touch",
+        "Ваша история начинается здесь": "Your story starts here",
+        "Расскажите, что вы ищете: мы поможем выбрать изделие или обсудим проект для вашей команды.": "Tell us what you are looking for. We can help you choose a piece or discuss a project for your team.",
+        "Найдите нас": "Find us", "г. Худжанд, Согдийская область,": "Khujand, Sughd Region,",
+        "Республика Таджикистан": "Republic of Tajikistan", "Позвоните нам": "Call us",
+        "Социальные сети": "Social media", "Напишите нам": "Send us a message",
+        "Оставьте контакты — мы свяжемся с вами.": "Leave your contact details and we will get back to you.",
+        "Ваше имя": "Your name", "Как к вам обращаться": "How should we address you?",
+        "Телефон или email": "Phone or email", "Сообщение": "Message",
+        "Расскажите, что вас заинтересовало": "Tell us what you are interested in",
+        "Отправить сообщение": "Send message", "© 2025 «Озара». Традиция, созданная вручную.": "© 2025 Ozara. Tradition, made by hand.",
+        "Закрыть окно": "Close dialog", "Изделие Озары": "An Ozara creation",
+        "Изделие создается вручную нашими мастерицами. Напишите нам, чтобы уточнить наличие, сроки и варианты персонализации.": "Handcrafted by our artisans. Contact us to ask about availability, lead times, and customization.",
+        "Узнать подробнее": "Ask us about this piece", "Подробнее ↗": "Details ↗",
+        "Подобрать оттенки для будущего орнамента": "Choosing colors for a new motif",
+        "Часть процесса создания": "A glimpse of the making process", "Мастерская Озары": "Ozara atelier",
+        "Уточняйте стоимость": "Contact us for pricing", "Индивидуальный пошив": "Made to order",
+        "Коллекция Озары": "Ozara collection",
+        "Спасибо! Форма подготовлена. Напишите нам в WhatsApp или Instagram, чтобы отправить сообщение.": "Thank you! Please message us on WhatsApp or Instagram to send your inquiry."
+      },
+      tg: {
+        "Озара — искусство таджикской вышивки": "Озара — ҳунари гулдӯзии тоҷикӣ",
+        "Логотип Озара": "Нишони Озара", "Озара — на главную": "Озара — саҳифаи асосӣ", "Озара — наверх": "Озара — ба боло",
+        "Основная навигация": "Паймоиши асосӣ", "О нас": "Дар бораи мо", "Коллекции": "Маҷмӯаҳо",
+        "Наша миссия": "Ҳадафи мо", "Партнерам": "Барои шарикон", "Контакты": "Тамос",
+        "Выбор языка": "Интихоби забон", "Связаться": "Тамос гирифтан", "Открыть меню": "Кушодани меню", "Закрыть меню": "Пӯшидани меню",
+        "Ремесло с душой · Худжанд": "Ҳунари бо меҳр · Хуҷанд",
+        "Искусство таджикской вышивки": "Ҳунари гулдӯзии тоҷикӣ",
+        "в новом прочтении": "бо нигоҳи нав",
+        "Традиционные орнаменты, созданные руками мастериц Худжанда на натуральном хлопке и шелке. Каждая вещь — история, которую хочется хранить.": "Нақшҳои суннатӣ, ки ҳунармандони Хуҷанд бо даст бар пахтаву абрешими табиӣ медӯзанд. Ҳар маҳсулот қиссаест, ки онро нигоҳ доштан мехоҳед.",
+        "Смотреть коллекцию": "Дидани маҷмӯа", "Ручная работа, созданная с заботой": "Бо даст ва меҳрубонӣ офарида шудааст",
+        "Фактура ткани и ручная вышивка в теплых природных оттенках": "Бофти матоъ ва гулдӯзии дастӣ бо рангҳои гарми табиӣ",
+        "натуральные материалы": "маводи табиӣ", "Листайте ниже": "Ба поён гузаред",
+        "Наследие, которое живет": "Мероси зинда", "Красота традиции — в руках мастериц": "Зебоии анъана дар дасти ҳунармандон",
+        "«Озара» родилась в 2011 году в Худжанде как социальное предприятие при поддержке Национальной Ассоциации Деловых Женщин Таджикистана (НАДЖТ). Мы объединяем мастериц, чтобы традиционное ремесло становилось делом будущего.": "«Озара» соли 2011 дар Хуҷанд бо дастгирии Ассотсиатсияи миллии занони соҳибкори Тоҷикистон ҳамчун корхонаи иҷтимоӣ таъсис ёфт. Мо ҳунармандонро муттаҳид мекунем, то ҳунари суннатӣ оянда дошта бошад.",
+        "Сузане — это не просто узор. Это язык символов, семейная память и мастерство, которое передается от поколения к поколению. Мы бережно вплетаем его в вещи для современной жизни.": "Сӯзанӣ танҳо нақш нест. Он забони рамзҳо, хотираи оила ва ҳунарест, ки аз насл ба насл мегузарад. Мо онро бо эҳтиром ба ашёи зиндагии имрӯз мепайвандем.",
+        "Узнать о процессе": "Шиносоӣ бо раванд", "Мастериц": "Ҳунармандон",
+        "Обучили ремеслу и поддержали в развитии собственного дела.": "Ба ҳунар омӯзондем ва дар рушди кори мустақилона дастгирӣ кардем.",
+        "Натуральные ткани": "Матоъҳои табиӣ", "Хлопок и шелк — приятная основа для каждой вышитой истории.": "Пахтаву абрешим заминаи зебо барои ҳар қиссаи гулдӯзишудаанд.",
+        "Живое наследие": "Мероси зинда", "Сохраняем таджикские орнаменты и передаем традиции дальше.": "Нақшҳои тоҷикӣ ва анъанаҳоро нигоҳ дошта, ба наслҳои оянда мерасонем.",
+        "Новые горизонты": "Уфуқҳои нав", "Знакомим с ремеслом и изделиями Озары покупателей по всему миру.": "Ҳунар ва маҳсулоти Озараро ба харидорон дар саросари ҷаҳон муаррифӣ мекунем.",
+        "Создано вручную": "Бо даст офарида шудааст", "Коллекции Озары": "Маҷмӯаҳои Озара",
+        "Небольшие серии и уникальные изделия, в которых встречаются древний орнамент и современная форма.": "Маҷмӯаҳои хурд ва маҳсулоти нодир, ки нақши қадима бо шакли муосир мепайвандад.",
+        "Все изделия": "Ҳамаи маҳсулот", "Сузане и панно": "Сӯзанӣ ва наққошӣ", "Подушки": "Болиштҳо",
+        "Одежда": "Либос", "Текстиль": "Матоъ", "Мастерская": "Коргоҳ",
+        "Фильтр по категориям": "Интихоб аз рӯи гурӯҳ",
+        "Изделия создаются вручную, поэтому размеры и узоры могут немного отличаться. Стоимость и наличие уточняйте у нашей команды.": "Ҳар маҳсулот дастӣ сохта мешавад, бинобар ин андоза ва нақш метавонад каме фарқ кунад. Нарх ва мавҷудиятро аз гурӯҳи мо пурсед.",
+        "От нити к истории": "Аз ришта то қисса", "В каждом стежке — время и внимание": "Дар ҳар кӯк — вақт ва меҳр",
+        "Наш процесс уважает материал, традицию и талант мастерицы. Ни одна вещь не повторяет другую в точности.": "Дар кори мо мавод, анъана ва истеъдоди ҳунарманд қадр мешаванд. Ду маҳсулот айнан якхела нестанд.",
+        "01 / Основа": "01 / Асос", "Натуральная ткань": "Матоъи табиӣ",
+        "Выбираем хлопок и шелк, приятные на ощупь и созданные служить долго.": "Пахтаву абрешими хушламс ва устуворро интихоб мекунем.",
+        "02 / Замысел": "02 / Андеша", "Орнамент": "Нақш",
+        "Находим вдохновение в природе, архитектуре и символах родного края.": "Дар табиат, меъморӣ ва рамзҳои диёрамон илҳом меёбем.",
+        "03 / Мастерство": "03 / Ҳунар", "Ручная вышивка": "Гулдӯзии дастӣ",
+        "Мастерица переносит рисунок на ткань стежок за стежком.": "Ҳунарманд нақшро кӯк ба кӯк ба матоъ медӯзад.",
+        "04 / Завершение": "04 / Анҷом", "Ваша история": "Қиссаи шумо",
+        "Проверяем каждую деталь и готовим вещь к новой жизни в вашем доме.": "Ҳар ҷузъро месанҷем ва маҳсулотро барои зиндагии нав дар хонаи шумо омода мекунем.",
+        "Мастерская и творческий процесс ручной работы": "Коргоҳ ва раванди эҷоди дастӣ",
+        "Вместе — больше": "Якҷоя — бештар", "Партнерство с уважением к ремеслу": "Ҳамкорӣ бо эҳтиром ба ҳунар",
+        "Открыты к сотрудничеству с дизайнерами, брендами, магазинами и компаниями, которым близки подлинность и ответственное производство.": "Бо тарроҳон, брендҳо, мағозаҳо ва ширкатҳое, ки асолат ва истеҳсоли масъулро қадр мекунанд, ҳамкорӣ мекунем.",
+        "Индивидуальные изделия и совместные коллекции": "Маҳсулоти фармоишӣ ва маҷмӯаҳои муштарак",
+        "Корпоративные подарки с национальной символикой": "Тӯҳфаҳои корӣ бо рамзҳои миллӣ",
+        "Партии для магазинов и экспортные поставки": "Фурӯши яклухт ва содирот",
+        "Обсудить сотрудничество": "Баррасии ҳамкорӣ", "Будем на связи": "Дар тамос бошем",
+        "Ваша история начинается здесь": "Қиссаи шумо аз ин ҷо оғоз мешавад",
+        "Расскажите, что вы ищете: мы поможем выбрать изделие или обсудим проект для вашей команды.": "Бигӯед, ки чӣ меҷӯед: дар интихоби маҳсулот кӯмак мекунем ё лоиҳаи гурӯҳи шуморо баррасӣ менамоем.",
+        "Найдите нас": "Моро ёбед", "г. Худжанд, Согдийская область,": "ш. Хуҷанд, вилояти Суғд,",
+        "Республика Таджикистан": "Ҷумҳурии Тоҷикистон", "Позвоните нам": "Ба мо занг занед",
+        "Социальные сети": "Шабакаҳои иҷтимоӣ", "Напишите нам": "Ба мо нависед",
+        "Оставьте контакты — мы свяжемся с вами.": "Маълумоти тамосро гузоред — мо бо шумо тамос мегирем.",
+        "Ваше имя": "Номи шумо", "Как к вам обращаться": "Шуморо чӣ гуна ном барем?",
+        "Телефон или email": "Телефон ё почтаи электронӣ", "Сообщение": "Паём",
+        "Расскажите, что вас заинтересовало": "Бигӯед, ки чӣ ба шумо писанд омад",
+        "Отправить сообщение": "Фиристодани паём", "© 2025 «Озара». Традиция, созданная вручную.": "© 2025 «Озара». Анъанае, ки бо даст офарида шудааст.",
+        "Закрыть окно": "Пӯшидани равзана", "Изделие Озары": "Маҳсулоти Озара",
+        "Изделие создается вручную нашими мастерицами. Напишите нам, чтобы уточнить наличие, сроки и варианты персонализации.": "Ҳунармандони мо ин маҳсулотро дастӣ месозанд. Барои маълумот дар бораи мавҷудият, муҳлат ва фармоиши махсус ба мо нависед.",
+        "Узнать подробнее": "Маълумоти бештар", "Подробнее ↗": "Тафсилот ↗",
+        "Подобрать оттенки для будущего орнамента": "Интихоби рангҳо барои нақши нав",
+        "Часть процесса создания": "Қисме аз раванди офариниш", "Мастерская Озары": "Коргоҳи Озара",
+        "Уточняйте стоимость": "Нархро пурсед", "Индивидуальный пошив": "Дӯхти фармоишӣ",
+        "Коллекция Озары": "Маҷмӯаи Озара",
+        "Спасибо! Форма подготовлена. Напишите нам в WhatsApp или Instagram, чтобы отправить сообщение.": "Ташаккур! Лутфан барои фиристодани дархост ба мо дар WhatsApp ё Instagram нависед."
+      }
+    };
+
+    const productTypeTranslations = {
+      en: { "Подушка": "Embroidered cushion", "Платье": "Embroidered dress", "Жакет": "Embroidered jacket", "Халат": "Embroidered robe", "Панно": "Embroidered wall hanging", "Сузане": "Suzani", "Орнамент": "Embroidered motif", "Образ": "Traditional look", "Текстиль": "Embroidered textile", "Вышивка": "Embroidery detail", "Лиф": "Embroidered bodice", "Рукав": "Embroidered sleeve", "Деталь": "Embroidery detail", "Праздничный образ": "Festive traditional look", "Цветовая палитра нитей": "Thread color palette", "Традиционные образы Озары": "Traditional Ozara looks" },
+      tg: { "Подушка": "Болишти гулдӯзӣ", "Платье": "Либоси гулдӯзӣ", "Жакет": "Куртаи гулдӯзӣ", "Халат": "Чомаи гулдӯзӣ", "Панно": "Паннои гулдӯзӣ", "Сузане": "Сӯзанӣ", "Орнамент": "Нақши гулдӯзӣ", "Образ": "Либоси миллӣ", "Текстиль": "Матоъи гулдӯзӣ", "Вышивка": "Ҷузъи гулдӯзӣ", "Лиф": "Қисми пеши либоси гулдӯзӣ", "Рукав": "Остини гулдӯзӣ", "Деталь": "Ҷузъи гулдӯзӣ", "Праздничный образ": "Либоси идона", "Цветовая палитра нитей": "Рангҳои ришта", "Традиционные образы Озары": "Либосҳои суннатии Озара" }
+    };
+
+    let currentLanguage = "ru";
+    function translateProductName(name, language) {
+      if (language === "ru") return name;
+      const translations = productTypeTranslations[language];
+      if (translations[name]) return translations[name];
+      const match = name.match(/^(Праздничный образ|Традиционные образы Озары|Цветовая палитра нитей|Подушка|Платье|Жакет|Халат|Панно|Сузане|Орнамент|Образ|Текстиль|Вышивка|Лиф|Рукав|Деталь)(.*)$/);
+      if (!match) return name;
+      return `${translations[match[1]] || match[1]}${match[2]}`;
+    }
+
+    function translateProductDescription(category, language) {
+      if (language === "ru") return null;
+      const descriptions = {
+        en: {
+          clothing: "Traditional clothing with handmade embroidery.",
+          pillows: "Natural fabric with hand-embroidered Tajik motifs.",
+          textile: "Traditional Tajik embroidery on natural fabric.",
+          decor: "Hand-embroidered suzani, made by Ozara artisans.",
+          process: "A glimpse into the Ozara artisan process."
+        },
+        tg: {
+          clothing: "Либоси суннатӣ бо гулдӯзии дастӣ.",
+          pillows: "Матоъи табиӣ бо нақшҳои тоҷикии дастӣ.",
+          textile: "Гулдӯзии суннатии тоҷикӣ бар матоъи табиӣ.",
+          decor: "Сӯзании дастӣ, офаридаи ҳунармандони Озара.",
+          process: "Нигоҳе ба раванди кори ҳунармандони Озара."
+        }
+      };
+      return descriptions[language][category] || descriptions[language].textile;
+    }
+
+    function localizePage(language) {
+      currentLanguage = language;
+      document.documentElement.lang = language;
+      document.querySelectorAll(".languages button").forEach((button) => {
+        button.setAttribute("aria-pressed", String(button.lang === language));
+      });
+
+      const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
+      let textNode;
+      while ((textNode = walker.nextNode())) {
+        const parent = textNode.parentElement;
+        if (!parent || parent.closest(".product-card") || parent.closest("script, style")) continue;
+        if (textNode.__ruText === undefined) textNode.__ruText = textNode.nodeValue;
+        const original = textNode.__ruText;
+        const trimmed = original.trim();
+        const translated = language === "ru" ? trimmed : (interfaceTranslations[language][trimmed] || trimmed);
+        if (translated !== trimmed) {
+          const leading = original.match(/^\s*/)[0];
+          const trailing = original.match(/\s*$/)[0];
+          textNode.nodeValue = `${leading}${translated}${trailing}`;
+        } else {
+          textNode.nodeValue = original;
+        }
+      }
+
+      document.querySelectorAll("[placeholder], [aria-label], img[alt]").forEach((element) => {
+        if (!element.__ruAttributes) {
+          element.__ruAttributes = {};
+          ["placeholder", "aria-label", "alt"].forEach((attribute) => {
+            if (element.hasAttribute(attribute)) element.__ruAttributes[attribute] = element.getAttribute(attribute);
+          });
+        }
+        Object.entries(element.__ruAttributes).forEach(([attribute, original]) => {
+          element.setAttribute(attribute, language === "ru" ? original : (interfaceTranslations[language][original] || original));
+        });
+      });
+
+      document.title = language === "ru" ? "Озара — искусство таджикской вышивки" : interfaceTranslations[language]["Озара — искусство таджикской вышивки"];
+      const description = document.querySelector('meta[name="description"]');
+      description.content = language === "ru"
+        ? "Озара — современное прочтение таджикской вышивки ручной работы. Сузане, текстиль и аксессуары из натуральных тканей, созданные мастерицами Худжанда."
+        : language === "en"
+          ? "Ozara reimagines Tajik embroidery through handmade suzani, textiles, and natural-fabric accessories crafted by women artisans in Khujand."
+          : "Озара ҳунари гулдӯзии тоҷикро бо сӯзанӣ, матоъ ва лавозимоти дастии ҳунармандони Хуҷанд муаррифӣ мекунад.";
+
+      document.querySelectorAll(".product-card").forEach((card) => {
+        const title = card.querySelector("h3");
+        const descriptionText = card.querySelector(".product-info > p");
+        const tag = card.querySelector(".product-tag");
+        const price = card.querySelector(".product-price");
+        const details = card.querySelector(".product-open");
+        title.textContent = translateProductName(card.dataset.name, language);
+        const localizedDescription = translateProductDescription(card.dataset.category, language);
+        if (localizedDescription) descriptionText.textContent = localizedDescription;
+        else descriptionText.textContent = descriptionText.dataset.ruText || descriptionText.textContent;
+        if (!descriptionText.dataset.ruText) descriptionText.dataset.ruText = descriptionText.textContent;
+        tag.textContent = language === "ru" ? tag.dataset.ruText || tag.textContent : interfaceTranslations[language][tag.dataset.ruText || tag.textContent] || tag.textContent;
+        if (!tag.dataset.ruText) tag.dataset.ruText = tag.textContent;
+        price.textContent = language === "ru" ? card.dataset.price : interfaceTranslations[language][card.dataset.price] || card.dataset.price;
+        details.textContent = language === "ru" ? "Подробнее ↗" : interfaceTranslations[language]["Подробнее ↗"];
+      });
+    }
+
+    document.querySelectorAll(".languages button").forEach((button) => {
+      button.addEventListener("click", () => localizePage(button.lang));
+    });
+    localizePage("ru");
+
+    document.querySelector("#contact-form").addEventListener("submit", (event) => {
+      event.preventDefault();
+      const messages = {
+        ru: "Спасибо! Форма подготовлена. Напишите нам в WhatsApp или Instagram, чтобы отправить сообщение.",
+        en: "Thank you! Please message us on WhatsApp or Instagram to send your inquiry.",
+        tg: "Ташаккур! Барои фиристодани дархост ба мо дар WhatsApp ё Instagram нависед."
+      };
+      document.querySelector("#form-status").textContent = messages[currentLanguage];
+      event.currentTarget.reset();
+    });
+  -->
+</body>
+</html>
